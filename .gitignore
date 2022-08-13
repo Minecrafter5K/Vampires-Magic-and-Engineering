@@ -7,68 +7,42 @@
 !.github/**
 
 # except the scripts folder
-
 !scripts
 !scripts/*
 
 # except the readme file
-!readme.md
-!advancements.png
+!README.md
 
 # except custom resources
-!resources
-!resources/contenttweaker
-!resources/contenttweaker/**/**
-!resources/waystones
-!resources/waystones/**
-!resources/patchouli
-!resources/patchouli/**
-!resources/minecraft
-!resources/minecraft/**
+# !resources
+# !resources/contenttweaker
+# !resources/contenttweaker/**/**
+# !resources/waystones
+# !resources/waystones/**
+# !resources/patchouli
+# !resources/patchouli/**
+# !resources/minecraft
+# !resources/minecraft/**
 
 # except changed config files (add manually)
 !config
-!config/blur.cfg
-!config/hwell.cfg
-#!config/splash.properties
-!config/uniquecrops.cfg
-!config/extendedcrafting.cfg
-!config/akashictome.cfg
-!config/opencomputers/
-!config/opencomputers/settings.conf
-!config/tconstruct.cfg
-!config/astralsorcery.cfg
-!config/theoneprobe.cfg
-!config/immersiveengineering.cfg
-!config/Waystones.cfg
-!config/hats.cfg
-!config/lockdown.cfg
-!config/voidislandcontrol.cfg
-!config/harvestcraft.cfg
-!config/quark.cfg
-!config/morphtool.cfg
-!config/jeresources
-!config/jeresources/jeresources.cfg
-!config/jeresources/world-gen.json
+!config/vampirism-common.toml
+!config/vampiresneedumbrellas-common.toml
 
 # Patchouli books folder
-!patchouli_books
-!patchouli_books/**
-
-# advancements folder
-!advancements
-!advancements/**
+# !patchouli_books
+# !patchouli_books/**
 
 # map template
 !template
 !template/**
 
-# gradle
-/advancements/.gradle
-/advancements/build
-
 # server pack
-!server/
-!server/server-setup-config.yaml
-!server/startserver.bat
-!server/startserver.sh
+# !server/
+# !server/server-setup-config.yaml
+# !server/startserver.bat
+# !server/startserver.sh
+
+# simple rpc
+!simple-rpc/
+!simple-rpc/*
