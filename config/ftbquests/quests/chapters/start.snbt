@@ -1,0 +1,355 @@
+{
+	id: "3E6C26D67CD48102"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Start"
+	icon: {
+		id: "botania:third_eye"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "vampirism:vampire_fang"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.5d
+			id: "40DB36E77846CA82"
+			tasks: [{
+				id: "3D4EEDB0F19F1376"
+				type: "dimension"
+				title: "The Start of everything!"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["40DB36E77846CA82"]
+			id: "08741EA3C24BCCB2"
+			tasks: [{
+				id: "39193D5D980A247E"
+				type: "checkmark"
+				title: "TODO: Small Desciption"
+			}]
+		}
+		{
+			title: "Find Gravel"
+			icon: "minecraft:gravel"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["08741EA3C24BCCB2"]
+			id: "245E4C7AC08187D2"
+			tasks: [
+				{
+					id: "416ABB1DF5C15E86"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "035804FB0AD5EF9D"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
+		}
+		{
+			title: "Flint Shards! and some Sticks"
+			icon: "notreepunching:flint_shard"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["245E4C7AC08187D2"]
+			id: "37283C58A50EF5AA"
+			tasks: [
+				{
+					id: "451BF0A3D3421924"
+					type: "item"
+					title: "Any #forge:rods/wooden"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "663317852A551A17"
+					type: "item"
+					item: "notreepunching:flint_shard"
+					count: 2L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "notreepunching:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["37283C58A50EF5AA"]
+			id: "5EB272F42875C972"
+			tasks: [
+				{
+					id: "034FBA3820AD396B"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3968AC3A8BF92DEA"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+				}
+				{
+					id: "14500A4FB26E6A5D"
+					type: "item"
+					item: "notreepunching:plant_string"
+					count: 6L
+				}
+			]
+		}
+		{
+			title: "Craft Flint Axe and get some Logs"
+			icon: {
+				id: "notreepunching:flint_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["5EB272F42875C972"]
+			id: "4ED8CF90A888C68A"
+			tasks: [
+				{
+					id: "228F9483BD301B56"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D76C7B089BEE593"
+					type: "item"
+					title: "Any #minecraft:logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 24L
+				}
+			]
+		}
+		{
+			title: "Templates!!"
+			icon: "silentgear:pickaxe_template"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["4ED8CF90A888C68A"]
+			id: "60803CF56FD3D92E"
+			tasks: [
+				{
+					id: "1EA1F3E2819A7554"
+					type: "item"
+					item: "silentgear:rod_template"
+				}
+				{
+					id: "3AF60791144EB1CE"
+					type: "item"
+					item: "silentgear:pickaxe_template"
+				}
+				{
+					id: "151A18B21C30C6C9"
+					type: "item"
+					item: "silentgear:shovel_template"
+				}
+				{
+					id: "4D6FBB0DEF831E2C"
+					type: "item"
+					item: "silentgear:sword_template"
+				}
+			]
+		}
+		{
+			icon: "minecraft:cobblestone"
+			x: 13.5d
+			y: 0.0d
+			dependencies: ["60803CF56FD3D92E"]
+			id: "5F36D69C48E00366"
+			tasks: [{
+				id: "6B7BD72A4C99855C"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32L
+			}]
+		}
+		{
+			title: "Craft Silent Gear Tools and Repair Kit"
+			x: 14.5d
+			y: -1.0d
+			description: [
+				"You can now craft Stone Gear!"
+				"You can fill the Repair Kit with the Materials of your Tools and repair your Gear in the Crafting-Table."
+			]
+			dependencies: ["5F36D69C48E00366"]
+			id: "60DFC9A5530B3976"
+			tasks: [{
+				id: "0FA914B627AEEB13"
+				type: "item"
+				item: {
+					id: "silentgear:very_crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21558403D51A0941"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 24
+					random_bonus: 8
+				}
+				{
+					id: "45516EB8909A6C66"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["5F36D69C48E00366"]
+			id: "58C021C55CFAC50B"
+			tasks: [{
+				id: "6EE4367A8B16F30F"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			dependencies: [
+				"58C021C55CFAC50B"
+				"5F36D69C48E00366"
+			]
+			id: "6E5C3E65B2E72A56"
+			tasks: [
+				{
+					id: "60BD7C9F415EF6CE"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16L
+				}
+				{
+					id: "6962FAC2899C103C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 24L
+				}
+			]
+		}
+		{
+			title: "A better Furnace"
+			x: 13.5d
+			y: 3.0d
+			dependencies: [
+				"58C021C55CFAC50B"
+				"6E5C3E65B2E72A56"
+			]
+			id: "5A78911A28145901"
+			tasks: [{
+				id: "419E7A63E136A791"
+				type: "item"
+				item: "furnacemk2:furnacemk2"
+			}]
+		}
+		{
+			title: "Iron Pickaxe"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 16.5d
+			y: 1.5d
+			dependencies: ["6E5C3E65B2E72A56"]
+			id: "4B445548596EAC71"
+		}
+		{
+			x: 18.0d
+			y: 1.5d
+			dependencies: ["4B445548596EAC71"]
+			id: "6D369060F97B2A0E"
+			tasks: [{
+				id: "2B7C7167F2DF24BA"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Botania"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["5F36D69C48E00366"]
+			id: "210E2F6F66373E73"
+			tasks: [{
+				id: "54254ACE8F2BD88B"
+				type: "checkmark"
+				title: "Start Botania"
+			}]
+			rewards: [{
+				id: "1BE0B0CD0A7544FF"
+				type: "gamestage"
+				title: "Botania"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				auto: "enabled"
+				stage: "botania_start"
+			}]
+		}
+	]
+}

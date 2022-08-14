@@ -1,0 +1,47 @@
+{
+	id: "5625FF6D81B08059"
+	group: "41A525D03035F935"
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Mystical Flowers"
+		icon: "botania:cyan_mystical_flower"
+		x: 0.0d
+		y: 0.0d
+		id: "1F8E2F43F6C08B81"
+		tasks: [
+			{
+				id: "244949B31CB7AFA5"
+				type: "observation"
+				title: "Find Mystical Flowers"
+				icon: "botania:white_mystical_flower"
+				timer: 0L
+				observe_type: 1
+				to_observe: "botania:mystical_flowers"
+			}
+			{
+				id: "28636B322927EB49"
+				type: "gamestage"
+				title: "Botania"
+				icon: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				stage: "botania_start"
+			}
+		]
+	}]
+}

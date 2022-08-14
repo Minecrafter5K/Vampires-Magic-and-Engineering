@@ -15,23 +15,7 @@
 
 # except changed config files (add manually)
 !config
-!config/ftbquests/**
-!config/vampirism-common.toml
-!config/vampiresneedumbrellas-common.toml
-!config/enhancedcelestials/minecraft/overworld/lunar/lunar-settings.json
-!config/enhancedcelestials/minecraft/overworld/lunar/events/*
-!config/sereneseasons/seasons.toml
-!config/advancementplaques-common.toml
-!config/astralsorcery-client.toml
-!config/astralsorcery-common.toml
-!config/bcc-common.toml
-!config/bettercaves-1_16.toml
-!config/betterdungeons-forge-1_16.toml
-!config/betterstrongholds-forge-1_16.toml
-!config/extendedcrafting-common.toml
-!config/naturescompass-common.toml
-!config/quark-common.toml
-!config/silentgear-common.toml
+!config/.gitignore
 
 # Patchouli books folder
 # !patchouli_books

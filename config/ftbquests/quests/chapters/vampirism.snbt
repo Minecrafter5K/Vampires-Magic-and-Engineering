@@ -1,0 +1,48 @@
+{
+	id: "0C4F131B60A51BFE"
+	group: "41A525D03035F935"
+	order_index: 0
+	filename: "vampirism"
+	title: "Vampirism - Hunter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hunter Camp"
+			x: 0.0d
+			y: -0.5d
+			id: "15C42B49A7827252"
+			tasks: [{
+				id: "7D57BACEF6FB221E"
+				type: "structure"
+				icon: "vampirism:item_tent"
+				structure: "vampirism:hunter_camp"
+			}]
+		}
+		{
+			title: "Garlic"
+			x: 0.0d
+			y: 0.5d
+			id: "5881C8351A09FB12"
+			tasks: [{
+				id: "63FCEAFF99FFB448"
+				type: "item"
+				item: "vampirism:item_garlic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"5881C8351A09FB12"
+				"15C42B49A7827252"
+			]
+			id: "5191647C8DBE5756"
+			tasks: [{
+				id: "164AB9133955D4B9"
+				type: "item"
+				item: "vampirism:injection_garlic"
+			}]
+		}
+	]
+}
