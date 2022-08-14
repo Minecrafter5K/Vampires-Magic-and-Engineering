@@ -8,24 +8,14 @@
 
 # except the scripts folder
 !scripts
-!scripts/*
+!scripts/**
 
 # except the readme file
 !README.md
 
-# except custom resources
-# !resources
-# !resources/contenttweaker
-# !resources/contenttweaker/**/**
-# !resources/waystones
-# !resources/waystones/**
-# !resources/patchouli
-# !resources/patchouli/**
-# !resources/minecraft
-# !resources/minecraft/**
-
 # except changed config files (add manually)
 !config
+!config/ftbquests/**
 !config/vampirism-common.toml
 !config/vampiresneedumbrellas-common.toml
 !config/enhancedcelestials/minecraft/overworld/lunar/lunar-settings.json
@@ -41,14 +31,11 @@
 !config/extendedcrafting-common.toml
 !config/naturescompass-common.toml
 !config/quark-common.toml
+!config/silentgear-common.toml
 
 # Patchouli books folder
 # !patchouli_books
 # !patchouli_books/**
-
-# map template
-!template
-!template/**
 
 # server pack
 # !server/
