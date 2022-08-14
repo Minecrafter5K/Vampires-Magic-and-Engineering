@@ -5,7 +5,8 @@
 - [Vampirism - Become a vampire! (by maxanier)](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 - [Botania (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/botania)
 - [Astral Sorcery (by HellFirePvP)](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
-
+- [Immersive Engineering (by BluSunrize)](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
+- [Immersive Industry (by yuesha_yc)](https://www.curseforge.com/minecraft/mc-mods/immersive-industry)
 ### Small Content Mods
 - [Ender Storage 1.8.+ (by covers1624)](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8)
 - [Storage Drawers (by Texelsaur)](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
@@ -28,6 +29,8 @@
 - [Enhanced Celestials - Blood, Blue, &amp; Harvest (Super) Moons (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials)
 - [YUNG's Better Portals (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-portals)
 - [Extended Crafting (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
+- [Immersive Posts (by TwistedGate)](https://www.curseforge.com/minecraft/mc-mods/immersiveposts)
+- [Immersive Petroleum (by Flaxbeard)](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
 
 ### QOF
 - [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)
@@ -53,6 +56,7 @@
 - [Mouse Tweaks (by YaLTeR)](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
 - [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [FTB Ultimine (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)
+- [Curios Quark Oddities Backpack (by 6LeoMC)](https://www.curseforge.com/minecraft/mc-mods/curios-quark-oddities-backpack)
 
 ### World Generation
 - [YUNG's Bridges (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges)
@@ -70,6 +74,7 @@
 - [Blur (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/blur)
 - [Out Of Sight (by Corosus)](https://www.curseforge.com/minecraft/mc-mods/out-of-sight)
 - [Ding (by ohaiiChun)](https://www.curseforge.com/minecraft/mc-mods/ding)
+- [Immersive FX (by y4z0n)](https://www.curseforge.com/minecraft/mc-mods/immersive-fx)
 
 ### Utility
 - [FTB Teams (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
