@@ -1,4 +1,19 @@
 # Vampirism
+## Progression
+### Early to Midgame
+**Vampirism** (Basic) + **Botania** -> **Vampirism** (Mid)
+
+**Vampirism** (Mid) + **Botania** -> **AstralSorcery** (Basic - Mid)
+
+### Endgame
+#### Vampire:
+**AstralSorcery** + **Mahou Tsukai** -> **Vampirism** (end)
+
+#### Vampire Hunter
+Immersive + ExtendedCrafting -> **Vampirism** (end)
+
+#### Angel Ring
+**AstralSorcery** + **Botania** + **Immersive**/**Mahou Tsukai** + **Vampirism** + **Aquaculture** + **ExtendedCrafting** -> **_AngelRing_**
 
 ## Mods
 ### Big Content Mods
@@ -7,6 +22,8 @@
 - [Astral Sorcery (by HellFirePvP)](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 - [Immersive Engineering (by BluSunrize)](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
 - [Immersive Industry (by yuesha_yc)](https://www.curseforge.com/minecraft/mc-mods/immersive-industry)
+- [Extended Crafting (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
+- [Mahou Tsukai (by stepcros)](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai)
 ### Small Content Mods
 - [Ender Storage 1.8.+ (by covers1624)](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8)
 - [Storage Drawers (by Texelsaur)](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
@@ -28,10 +45,8 @@
 - [Nature's Compass (by Chaosyr)](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 - [Enhanced Celestials - Blood, Blue, &amp; Harvest (Super) Moons (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials)
 - [YUNG's Better Portals (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-portals)
-- [Extended Crafting (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Immersive Posts (by TwistedGate)](https://www.curseforge.com/minecraft/mc-mods/immersiveposts)
 - [Immersive Petroleum (by Flaxbeard)](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
-
 ### QOF
 - [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)
 - [Toast Control (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/toast-control)
@@ -57,7 +72,6 @@
 - [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
 - [FTB Ultimine (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)
 - [Curios Quark Oddities Backpack (by 6LeoMC)](https://www.curseforge.com/minecraft/mc-mods/curios-quark-oddities-backpack)
-
 ### World Generation
 - [YUNG's Bridges (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges)
 - [TerraForged (by won_ton_)](https://www.curseforge.com/minecraft/mc-mods/terraforged)
@@ -66,7 +80,6 @@
 - [YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
 - [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
 - [YUNG's Extras (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-extras)
-
 ### Client *Extra* Mods
 - [Oculus (by Asek3)](https://www.curseforge.com/minecraft/mc-mods/oculus)
 - [Rubidium (by Asek3)](https://www.curseforge.com/minecraft/mc-mods/rubidium)
@@ -75,7 +88,6 @@
 - [Out Of Sight (by Corosus)](https://www.curseforge.com/minecraft/mc-mods/out-of-sight)
 - [Ding (by ohaiiChun)](https://www.curseforge.com/minecraft/mc-mods/ding)
 - [Immersive FX (by y4z0n)](https://www.curseforge.com/minecraft/mc-mods/immersive-fx)
-
 ### Utility
 - [FTB Teams (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
 - [Better Compatibility Checker (by Gaz_)](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
@@ -89,7 +101,6 @@
 - [FTB Backups (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge)
 - [FTB Chunks (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge)
 - [FastWorkbench (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/fastworkbench)
-
 ### Lib Mods
 - [Kotlin for Forge (by thedarkcolour)](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
 - [Cucumber Library (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/cucumber)
