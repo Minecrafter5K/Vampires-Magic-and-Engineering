@@ -1,4 +1,4 @@
-# Vampirism
+# Vampires Magic and Engineering
 ## Progression
 ### Early to Midgame
 **Vampirism** (Basic) + **Botania** -> **Vampirism** (Mid)
@@ -25,6 +25,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Extended Crafting (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Mahou Tsukai (by stepcros)](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai)
 - [Silent Gear (by SilentChaos512)](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
+
 ### Small Content Mods
 - [Ender Storage 1.8.+ (by covers1624)](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8)
 - [Storage Drawers (by Texelsaur)](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
@@ -90,6 +91,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Configured (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/configured)
 - [Curios Quark Oddities Backpack (by 6LeoY)](https://www.curseforge.com/minecraft/mc-mods/curios-quark-oddities-backpack)
 - [You Cannot Swim Up Waterfalls (by stephenb6174)](https://www.curseforge.com/minecraft/mc-mods/you-cannot-swim-up-waterfalls)
+- [Spice of Life: Potato Edition (by Kevun2)](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-potato-edition)
 
 ### World Generation
 - [YUNG's Bridges (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-bridges)
@@ -99,6 +101,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
 - [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
 - [YUNG's Extras (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-extras)
+
 ### Client *Extra* Mods
 - [Oculus (by Asek3)](https://www.curseforge.com/minecraft/mc-mods/oculus)
 - [Rubidium (by Asek3)](https://www.curseforge.com/minecraft/mc-mods/rubidium)

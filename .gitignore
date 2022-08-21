@@ -17,6 +17,9 @@
 !config
 !config/.gitignore
 
+!defaultconfigs
+!defaultconfigs/**
+
 # Patchouli books folder
 # !patchouli_books
 # !patchouli_books/**
