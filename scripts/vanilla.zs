@@ -41,3 +41,6 @@ val vanillaTools = [
 for item in vanillaTools {
     disable(item);
 }
+
+// remove ingot furnace recepies
+furnace.removeRecipe(<tag:items:forge:ingots>);
