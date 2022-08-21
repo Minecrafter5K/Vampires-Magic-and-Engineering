@@ -33,3 +33,7 @@
 # simple rpc
 !simple-rpc/
 !simple-rpc/*
+
+# cursefore Image
+!profileImage
+!profileImage/*

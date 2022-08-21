@@ -21,3 +21,6 @@
 !itlt-client.toml
 !terraforged
 !terraforged/*
+!DistantHorizons.toml
+!itlt
+!itlt/*

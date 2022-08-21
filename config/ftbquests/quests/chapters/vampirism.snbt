@@ -29,8 +29,24 @@
 				type: "item"
 				item: "vampirism:item_garlic"
 			}]
+			rewards: [
+				{
+					id: "32EFE4EED46571C1"
+					type: "item"
+					item: "vampirism:item_garlic"
+					random_bonus: 1
+				}
+				{
+					id: "65803FD72286D30D"
+					type: "item"
+					item: "vampirism:garlic_bread"
+					count: 2
+					random_bonus: 1
+				}
+			]
 		}
 		{
+			title: "You are a Vampire Hunter!"
 			x: 2.0d
 			y: 0.0d
 			dependencies: [
@@ -38,10 +54,68 @@
 				"15C42B49A7827252"
 			]
 			id: "5191647C8DBE5756"
+			tasks: [
+				{
+					id: "164AB9133955D4B9"
+					type: "item"
+					item: "vampirism:injection_garlic"
+				}
+				{
+					id: "59AFB234AF733ED8"
+					type: "observation"
+					title: "Find a Injction Chair in a Village"
+					icon: "vampirism:item_med_chair"
+					timer: 0L
+					observe_type: 0
+					to_observe: "vampirism:med_chair"
+				}
+			]
+		}
+		{
+			title: "Kill Vampires"
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["5191647C8DBE5756"]
+			id: "37D6235B96328A5C"
 			tasks: [{
-				id: "164AB9133955D4B9"
+				id: "59024BD04C240E06"
 				type: "item"
-				item: "vampirism:injection_garlic"
+				item: {
+					id: "vampirism:stake"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68E5F0220A6F8A11"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["37D6235B96328A5C"]
+			id: "623F28E4B02335C2"
+			tasks: [
+				{
+					id: "2D403650AA588FF6"
+					type: "item"
+					item: "vampirism:vampire_blood_bottle"
+					count: 8L
+				}
+				{
+					id: "208C51B057612A39"
+					type: "item"
+					item: "vampirism:vampire_fang"
+				}
+			]
+			rewards: [{
+				id: "79C09AA93B8E0D04"
+				type: "item"
+				item: "vampirism:soul_orb_vampire"
 			}]
 		}
 	]
