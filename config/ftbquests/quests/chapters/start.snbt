@@ -345,7 +345,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 13.5d
 			y: 4.5d
 			dependencies: ["58C021C55CFAC50B"]
 			id: "2AD59F130C105727"
@@ -370,7 +370,7 @@
 			]
 		}
 		{
-			x: 16.0d
+			x: 15.5d
 			y: 4.5d
 			dependencies: ["2AD59F130C105727"]
 			id: "36468C3B8C1FFD2D"
@@ -381,7 +381,7 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 14.5d
 			y: 6.0d
 			dependencies: ["2AD59F130C105727"]
 			id: "639ABFF1C9AAF705"
@@ -392,7 +392,7 @@
 			}]
 		}
 		{
-			x: 17.0d
+			x: 16.5d
 			y: 6.0d
 			dependencies: ["639ABFF1C9AAF705"]
 			id: "128C57259B9D7DE5"
@@ -403,7 +403,7 @@
 			}]
 		}
 		{
-			x: 18.0d
+			x: 17.5d
 			y: 4.5d
 			dependencies: [
 				"36468C3B8C1FFD2D"
@@ -417,7 +417,7 @@
 			}]
 		}
 		{
-			x: 19.5d
+			x: 19.0d
 			y: 4.5d
 			dependencies: ["2E2320F7D378E864"]
 			id: "73C85206BD5C161A"
@@ -428,7 +428,7 @@
 			}]
 		}
 		{
-			x: 19.5d
+			x: 19.0d
 			y: 3.0d
 			dependencies: ["73C85206BD5C161A"]
 			id: "606E5BAD59EFDE62"
