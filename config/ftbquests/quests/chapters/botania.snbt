@@ -13,35 +13,75 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Mystical Flowers"
-		icon: "botania:cyan_mystical_flower"
-		x: 0.0d
-		y: 0.0d
-		id: "1F8E2F43F6C08B81"
-		tasks: [
-			{
-				id: "244949B31CB7AFA5"
-				type: "observation"
-				title: "Find Mystical Flowers"
-				icon: "botania:white_mystical_flower"
-				timer: 0L
-				observe_type: 1
-				to_observe: "botania:mystical_flowers"
-			}
-			{
-				id: "28636B322927EB49"
-				type: "gamestage"
-				title: "Botania"
-				icon: {
+	quests: [
+		{
+			title: "Mystical Flowers"
+			icon: "botania:cyan_mystical_flower"
+			x: 0.0d
+			y: 0.0d
+			id: "1F8E2F43F6C08B81"
+			tasks: [
+				{
+					id: "244949B31CB7AFA5"
+					type: "observation"
+					title: "Find Mystical Flowers"
+					icon: "botania:white_mystical_flower"
+					timer: 0L
+					observe_type: 1
+					to_observe: "botania:mystical_flowers"
+				}
+				{
+					id: "28636B322927EB49"
+					type: "gamestage"
+					title: "Botania"
+					icon: {
+						id: "botania:lexicon"
+						Count: 1b
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					stage: "botania_start"
+				}
+			]
+			rewards: [{
+				id: "54D681B3E992172C"
+				type: "item"
+				item: {
 					id: "botania:lexicon"
 					Count: 1b
-					tag: {
-						"botania:elven_unlock": 1b
-					}
+					tag: { }
 				}
-				stage: "botania_start"
-			}
-		]
-	}]
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1F8E2F43F6C08B81"]
+			id: "15497BFA0B4E57BA"
+			tasks: [{
+				id: "0BDB4F750852CB06"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["15497BFA0B4E57BA"]
+			id: "3305938099576B88"
+			tasks: [
+				{
+					id: "31D80C2605A2DC63"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "1FAA1F38C4999947"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+	]
 }

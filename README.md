@@ -62,6 +62,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Spare Parts (by D0CTORZED)](https://www.curseforge.com/minecraft/mc-mods/spare-parts)
 - [The Bumblezone (Forge) (by telepathicgrunt)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge)
 - [Water Strainer (by Ruuubi)](https://www.curseforge.com/minecraft/mc-mods/water-strainer)
+- [Construction Wand (by ThetaDev)](https://www.curseforge.com/minecraft/mc-mods/construction-wand)
 
 ### QOF
 - [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)

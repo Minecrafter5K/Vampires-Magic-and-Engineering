@@ -463,8 +463,11 @@
 		}
 		{
 			x: 10.5d
-			y: -5.0d
-			dependencies: ["778D0CF409C67CF1"]
+			y: -3.5d
+			dependencies: [
+				"778D0CF409C67CF1"
+				"210E2F6F66373E73"
+			]
 			id: "077FEC471F1992C3"
 			tasks: [{
 				id: "2155397988EB80BA"
@@ -530,8 +533,8 @@
 		}
 		{
 			title: "Wands"
-			x: 13.5d
-			y: -2.5d
+			x: 10.5d
+			y: -5.0d
 			dependencies: ["778D0CF409C67CF1"]
 			id: "567C29A0F5746E3C"
 			tasks: [{
