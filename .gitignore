@@ -13,16 +13,16 @@
 # except the readme file
 !README.md
 
-# except changed config files (add manually)
+# except changed config files
 !config
 !config/.gitignore
 
 !defaultconfigs
 !defaultconfigs/**
 
-# Patchouli books folder
-# !patchouli_books
-# !patchouli_books/**
+# open loader resorces
+!openloader
+!openloader/**
 
 # server pack
 # !server/
@@ -34,6 +34,6 @@
 !simple-rpc/
 !simple-rpc/*
 
-# cursefore Image
+# cursefore image
 !profileImage
 !profileImage/*

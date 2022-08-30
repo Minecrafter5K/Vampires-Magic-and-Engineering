@@ -132,6 +132,8 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [ServerConfig Updater (by Darkere)](https://www.curseforge.com/minecraft/mc-mods/serverconfig-updater)
 - [Shutup Experimental Settings! (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings)
+- [ContentTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/contenttweaker)
+- [Open Loader (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/open-loader)
 
 ### Lib Mods
 - [Kotlin for Forge (by thedarkcolour)](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)

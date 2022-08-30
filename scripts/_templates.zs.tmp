@@ -1,0 +1,6 @@
+craftingTable.removeRecipe(<item::>);
+craftingTable.addShaped("", <item::>, [
+    [<item::>, <item::>, <item::>],
+    [<item::>, <item::>, <item::>],
+    [<item::>, <item::>, <item::>]
+]);
