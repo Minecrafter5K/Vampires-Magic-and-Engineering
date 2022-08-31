@@ -532,16 +532,60 @@
 			}]
 		}
 		{
-			title: "Wands"
+			title: "Building Wands!"
 			x: 10.5d
 			y: -5.0d
 			dependencies: ["778D0CF409C67CF1"]
 			id: "567C29A0F5746E3C"
-			tasks: [{
-				id: "3E134C3D2ED2B24E"
-				type: "item"
-				item: "ftbquests:missing_item"
-			}]
+			tasks: [
+				{
+					id: "3E134C3D2ED2B24E"
+					type: "item"
+					item: {
+						id: "constructionwand:stone_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A353EBA4695EA39"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F4C55B3D7BAD783"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45FCF7C70A4E410C"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+			]
 		}
 	]
 }

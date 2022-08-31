@@ -1,6 +1,6 @@
 craftingTable.removeRecipe(<item::>);
 craftingTable.addShaped("", <item::>, [
-    [<item::>, <item::>, <item::>],
-    [<item::>, <item::>, <item::>],
-    [<item::>, <item::>, <item::>]
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
