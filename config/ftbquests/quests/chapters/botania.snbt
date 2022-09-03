@@ -56,8 +56,8 @@
 		}
 		{
 			x: 1.5d
-			y: 0.0d
-			dependencies: ["1F8E2F43F6C08B81"]
+			y: -1.5d
+			dependencies: ["6298EE1996B7F638"]
 			id: "15497BFA0B4E57BA"
 			tasks: [{
 				id: "0BDB4F750852CB06"
@@ -68,7 +68,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			dependencies: ["15497BFA0B4E57BA"]
+			dependencies: ["6298EE1996B7F638"]
 			id: "3305938099576B88"
 			tasks: [
 				{
@@ -82,6 +82,139 @@
 					item: "minecraft:water_bucket"
 				}
 			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1F8E2F43F6C08B81"]
+			id: "6298EE1996B7F638"
+			tasks: [{
+				id: "2E3198FE862C1CF8"
+				type: "item"
+				title: "Any #botania:petals"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:petals"
+					}
+				}
+			}]
+		}
+		{
+			icon: "botania:pure_daisy"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["3305938099576B88"]
+			id: "70BAD1982119F263"
+			tasks: [
+				{
+					id: "2146E4912E85267A"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "16104A7143377098"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8L
+				}
+				{
+					id: "6DE9CD62F2E3BD69"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "You're gonna need a lot of these"
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["70BAD1982119F263"]
+			id: "4B970F697A92EFC2"
+			tasks: [{
+				id: "1AC33CEAA5F0BF03"
+				type: "item"
+				item: "botania:livingwood_twig"
+				count: 16L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"748D27591B98B408"
+				"70BAD1982119F263"
+			]
+			id: "4E6810FF3C037EF6"
+			tasks: [{
+				id: "2AE34B0AC253E500"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["3305938099576B88"]
+			id: "4600E5BEDEE249FB"
+			tasks: [{
+				id: "60963D8DE63BBBE9"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["4600E5BEDEE249FB"]
+			id: "748D27591B98B408"
+			tasks: [{
+				id: "3379556BD13F72FB"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["4E6810FF3C037EF6"]
+			id: "07DADD63523EF2CD"
+			tasks: [{
+				id: "1D80E97D02272A40"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: [
+				"4E6810FF3C037EF6"
+				"5B29F52FF588B547"
+			]
+			id: "1B1FCF431C103450"
+			tasks: [{
+				id: "75ADBFD7C1FE195B"
+				type: "item"
+				item: "botania:tiny_potato"
+			}]
+		}
+		{
+			title: "TODO: Random reward for tiny potato"
+			x: 6.0d
+			y: 4.0d
+			id: "5B29F52FF588B547"
+			tasks: [{
+				id: "4D25BF90AF6A5D25"
+				type: "item"
+				item: "ftbquests:missing_item"
+			}]
 		}
 	]
 }
