@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "vampirism"
 	title: "Vampirism - Hunter"
+	icon: "vampirism:pure_blood_0"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -95,27 +96,41 @@
 			}]
 		}
 		{
-			x: 5.0d
+			title: "Level 3"
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["55E1827AC1F9C5A2"]
+			id: "623F28E4B02335C2"
+			tasks: [{
+				id: "2D403650AA588FF6"
+				type: "item"
+				item: "vampirism:vampire_blood_bottle"
+				count: 5L
+			}]
+		}
+		{
+			title: "Level 2"
+			x: 5.5d
 			y: 0.0d
 			dependencies: ["37D6235B96328A5C"]
-			id: "623F28E4B02335C2"
-			tasks: [
-				{
-					id: "2D403650AA588FF6"
-					type: "item"
-					item: "vampirism:vampire_blood_bottle"
-					count: 8L
-				}
-				{
-					id: "208C51B057612A39"
-					type: "item"
-					item: "vampirism:vampire_fang"
-				}
-			]
-			rewards: [{
-				id: "79C09AA93B8E0D04"
+			id: "55E1827AC1F9C5A2"
+			tasks: [{
+				id: "599FBA123F1303B9"
 				type: "item"
-				item: "vampirism:soul_orb_vampire"
+				item: "vampirism:vampire_blood_bottle"
+			}]
+		}
+		{
+			title: "Level 4"
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["623F28E4B02335C2"]
+			id: "5CAF0268202AA3B3"
+			tasks: [{
+				id: "111407C3385E160E"
+				type: "item"
+				item: "vampirism:vampire_blood_bottle"
+				count: 12L
 			}]
 		}
 	]

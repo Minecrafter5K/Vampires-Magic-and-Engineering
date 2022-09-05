@@ -25,6 +25,11 @@
 				title: "The Start of everything!"
 				dimension: "minecraft:overworld"
 			}]
+			rewards: [{
+				id: "501726B1F3DF28B3"
+				type: "item"
+				item: "ftbquests:book"
+			}]
 		}
 		{
 			x: 3.5d
@@ -119,7 +124,7 @@
 					id: "14500A4FB26E6A5D"
 					type: "item"
 					item: "notreepunching:plant_string"
-					count: 6L
+					count: 3L
 				}
 			]
 		}
@@ -191,12 +196,17 @@
 					type: "item"
 					item: "silentgear:sword_template"
 				}
+				{
+					id: "2395DCC133543B21"
+					type: "item"
+					item: "silentgear:axe_template"
+				}
 			]
 		}
 		{
 			icon: "minecraft:cobblestone"
 			x: 12.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["60803CF56FD3D92E"]
 			id: "5F36D69C48E00366"
 			tasks: [{
@@ -204,6 +214,12 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 				count: 32L
+			}]
+			rewards: [{
+				id: "24C058E9F2FE8A94"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
 			}]
 		}
 		{
@@ -249,7 +265,7 @@
 		}
 		{
 			x: 12.0d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["5F36D69C48E00366"]
 			id: "58C021C55CFAC50B"
 			tasks: [{
@@ -261,7 +277,7 @@
 		{
 			title: "A better Furnace"
 			x: 10.5d
-			y: 4.0d
+			y: 4.5d
 			dependencies: ["58C021C55CFAC50B"]
 			id: "5A78911A28145901"
 			tasks: [{
@@ -305,7 +321,7 @@
 		}
 		{
 			x: 10.5d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["58C021C55CFAC50B"]
 			id: "4D0A6366EAAEF213"
 			tasks: [{
@@ -346,7 +362,7 @@
 		}
 		{
 			x: 13.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["58C021C55CFAC50B"]
 			id: "2AD59F130C105727"
 			tasks: [
@@ -371,7 +387,7 @@
 		}
 		{
 			x: 15.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["2AD59F130C105727"]
 			id: "36468C3B8C1FFD2D"
 			tasks: [{
@@ -382,7 +398,7 @@
 		}
 		{
 			x: 14.5d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["2AD59F130C105727"]
 			id: "639ABFF1C9AAF705"
 			tasks: [{
@@ -393,7 +409,7 @@
 		}
 		{
 			x: 16.5d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["639ABFF1C9AAF705"]
 			id: "128C57259B9D7DE5"
 			tasks: [{
@@ -404,7 +420,7 @@
 		}
 		{
 			x: 17.5d
-			y: 4.5d
+			y: 5.0d
 			dependencies: [
 				"36468C3B8C1FFD2D"
 				"128C57259B9D7DE5"
@@ -418,7 +434,7 @@
 		}
 		{
 			x: 19.0d
-			y: 4.5d
+			y: 5.0d
 			dependencies: ["2E2320F7D378E864"]
 			id: "73C85206BD5C161A"
 			tasks: [{
@@ -429,7 +445,7 @@
 		}
 		{
 			x: 19.0d
-			y: 3.0d
+			y: 3.5d
 			dependencies: ["73C85206BD5C161A"]
 			id: "606E5BAD59EFDE62"
 			tasks: [{
@@ -586,6 +602,44 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "vampirism:vampire_fang"
+			x: 14.0d
+			y: -0.5d
+			dependencies: ["5A89E43EEC5C7912"]
+			id: "2D4C9274B779EF25"
+			tasks: [{
+				id: "571F16AE922E96FC"
+				type: "checkmark"
+				title: "Vampire...."
+			}]
+			rewards: [{
+				id: "3C709A106F576E31"
+				type: "gamestage"
+				title: "Become a Vampire"
+				auto: "invisible"
+				stage: ""
+			}]
+		}
+		{
+			icon: "vampirism:pure_blood_0"
+			x: 14.0d
+			y: 0.5d
+			dependencies: ["5A89E43EEC5C7912"]
+			id: "1852CBBE474420AA"
+			tasks: [{
+				id: "5B8A3CD599484A50"
+				type: "checkmark"
+				title: "or Vampire Hunter?"
+			}]
+			rewards: [{
+				id: "511372DF1EBD0135"
+				type: "gamestage"
+				title: "Become a Vampire Hunter"
+				auto: "invisible"
+				stage: ""
+			}]
 		}
 	]
 }

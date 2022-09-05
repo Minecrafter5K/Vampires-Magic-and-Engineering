@@ -79,7 +79,14 @@
 				{
 					id: "1FAA1F38C4999947"
 					type: "item"
-					item: "minecraft:water_bucket"
+					title: "Any #ftbsluice:water_buckets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ftbsluice:water_buckets"
+						}
+					}
 				}
 			]
 		}
@@ -117,13 +124,13 @@
 					id: "16104A7143377098"
 					type: "item"
 					item: "botania:livingrock"
-					count: 8L
+					count: 5L
 				}
 				{
 					id: "6DE9CD62F2E3BD69"
 					type: "item"
 					item: "botania:livingwood"
-					count: 16L
+					count: 8L
 				}
 			]
 		}
@@ -137,7 +144,14 @@
 				id: "1AC33CEAA5F0BF03"
 				type: "item"
 				item: "botania:livingwood_twig"
-				count: 16L
+				count: 8L
+			}]
+			rewards: [{
+				id: "10FAF9ABA12A722C"
+				type: "item"
+				item: "botania:livingwood"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{

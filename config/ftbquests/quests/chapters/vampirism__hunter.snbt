@@ -1,0 +1,141 @@
+{
+	id: "11EA354D7054E033"
+	group: "7208B33F58F7A2C5"
+	order_index: 0
+	filename: "vampirism__hunter"
+	title: "Vampirism - Hunter - Mid and Endgame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.5d
+			y: 0.0d
+			id: "541EB2B2739A26FE"
+			tasks: [{
+				id: "74C3C61AC775B2CE"
+				type: "item"
+				item: "vampirism:hunter_table"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			id: "5DD2DE8C9E05E107"
+			tasks: [{
+				id: "761901C9C44EBBBF"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			id: "48AB3900FD7608A4"
+			tasks: [{
+				id: "0210678CE9437017"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			id: "63EE8579908C2AAC"
+			tasks: [{
+				id: "5088A14533BDAFB7"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			id: "557623BDC2A32BA5"
+			tasks: [{
+				id: "4F9F92A8B1506B6F"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			id: "3434E7EEE766171D"
+			tasks: [{
+				id: "40EA8C621A446AC0"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.0d
+			id: "1B6D19F5249EE415"
+			tasks: [{
+				id: "02FBB7B0D059C0B1"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 1.0d
+			id: "128DB891325C75D3"
+			tasks: [{
+				id: "444CF2D646BA2DB3"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 21.0d
+			y: 1.0d
+			id: "693AA5286A417686"
+			tasks: [{
+				id: "13F6E3ABD8CF83F4"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 1.0d
+			id: "7C524C1B9D1EBF9F"
+			tasks: [{
+				id: "2C96CEFCA3895E00"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 1.0d
+			id: "3FE06CDFD9E8E34B"
+			tasks: [{
+				id: "53A50D8A4559E93C"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 1.0d
+			id: "65C8FFC64638721F"
+			tasks: [{
+				id: "02A1582FC0798525"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 1.0d
+			id: "6613BDB9B86F4C8A"
+			tasks: [{
+				id: "41F6909580D9C88D"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+		}
+	]
+}
