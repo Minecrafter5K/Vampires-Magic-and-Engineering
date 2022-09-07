@@ -116,6 +116,8 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Ding (by ohaiiChun)](https://www.curseforge.com/minecraft/mc-mods/ding)
 - [Immersive FX (by y4z0n)](https://www.curseforge.com/minecraft/mc-mods/immersive-fx)
 - [Lazy DataFixerUpper(LazyDFU) [FORGE] (by Corgi_Taco)](https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge)
+- [Eyes in the Darkness (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/eyes-in-the-darkness)
+- [Drip Sounds (Forge) (by PieKing1215)](https://www.curseforge.com/minecraft/mc-mods/waterdripsound)
 
 ### Utility
 - [FTB Teams (Forge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
@@ -140,6 +142,9 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Open Loader (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/open-loader)
 - [CreateTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/createtweaker)
 - [Flywheel (by jozufozu)](https://www.curseforge.com/minecraft/mc-mods/flywheel)
+- [OnlyLooking (by bagu_chan500)](https://www.curseforge.com/minecraft/mc-mods/onlylooking)
+- [Total Darkness (by tfarecnim)](https://www.curseforge.com/minecraft/mc-mods/total-darkness)
+
 
 ### Lib Mods
 - [Kotlin for Forge (by thedarkcolour)](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
