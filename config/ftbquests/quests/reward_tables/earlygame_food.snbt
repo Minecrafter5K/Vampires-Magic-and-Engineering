@@ -1,0 +1,18 @@
+{
+	id: "403132315B43B8C6"
+	order_index: 0
+	title: "Earlygame Food"
+	icon: "minecraft:potato"
+	loot_size: 3
+	rewards: [
+		{ item: "minecraft:potato", random_bonus: 4, weight: 10 }
+		{ item: "minecraft:baked_potato", random_bonus: 4, weight: 8 }
+		{ item: "quark:potato_crate", weight: 2 }
+		{ item: "farmersdelight:stuffed_potato", weight: 2 }
+		{ item: "minecraft:bread", count: 3, random_bonus: 3, weight: 6 }
+		{
+			item: { id: "minecraft:golden_apple", Count: 64b }
+			random_bonus: 1
+		}
+	]
+}

@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "41A525D03035F935", title: "Early Game" }
 		{ id: "7208B33F58F7A2C5", title: "Mid and Endgame" }
+		{ id: "022111045672B9AE", title: "Side Quests" }
 	]
 }

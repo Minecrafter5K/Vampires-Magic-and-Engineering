@@ -1,0 +1,49 @@
+{
+	id: "0E35A4AB889FB2A2"
+	group: "7208B33F58F7A2C5"
+	order_index: 2
+	filename: "vampirism__vampire__mid_and_endgame"
+	title: "Vampirism - Vampire - Mid and Endgame"
+	icon: "vampirism:human_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["anderer altar"]
+			id: "35F1AAEB00B641C3"
+			tasks: [
+				{
+					id: "3FD692D522CF2C25"
+					type: "gamestage"
+					title: "I need more Levels!!!!"
+					icon: "vampirism:human_heart"
+					stage: ""
+				}
+				{
+					id: "0BD5DF8BC9DB539B"
+					type: "item"
+					item: "vampirism:altar_infusion"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "4126535BC0C6AC4A"
+			tasks: [
+				{
+					id: "6AB4CC5FEA07E903"
+					type: "item"
+					item: "vampirism:altar_pillar"
+				}
+				{
+					id: "5D83C1FD5A97FBA5"
+					type: "item"
+					item: "vampirism:altar_tip"
+				}
+			]
+		}
+	]
+}

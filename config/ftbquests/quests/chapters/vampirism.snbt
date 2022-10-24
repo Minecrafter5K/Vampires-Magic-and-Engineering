@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "vampirism"
 	title: "Vampirism - Hunter"
-	icon: "vampirism:pure_blood_0"
+	icon: "vampirism:vampire_blood_bottle"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -131,6 +131,25 @@
 				type: "item"
 				item: "vampirism:vampire_blood_bottle"
 				count: 12L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["5CAF0268202AA3B3"]
+			id: "43F0C1BF163E669E"
+			tasks: [{
+				id: "5137650D7F478A2B"
+				type: "checkmark"
+				title: "I need more Levels!!"
+			}]
+			rewards: [{
+				id: "20A1A6B7534AF027"
+				type: "gamestage"
+				title: "I need more Levels!!!!"
+				icon: "vampirism:pure_blood_4"
+				auto: "invisible"
+				stage: "vampirism_quests_advanced"
 			}]
 		}
 	]

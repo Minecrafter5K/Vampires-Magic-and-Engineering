@@ -4,12 +4,13 @@
 	order_index: 0
 	filename: "vampirism__hunter"
 	title: "Vampirism - Hunter - Mid and Endgame"
+	icon: "vampirism:pure_blood_4"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 10.5d
-			y: 0.0d
+			y: -0.5d
 			id: "541EB2B2739A26FE"
 			tasks: [{
 				id: "74C3C61AC775B2CE"
@@ -18,123 +19,437 @@
 			}]
 		}
 		{
+			title: "Level 5"
 			x: 10.5d
 			y: 1.0d
+			dependencies: [
+				"541EB2B2739A26FE"
+				"05E3C14D3BC29FAC"
+			]
 			id: "5DD2DE8C9E05E107"
-			tasks: [{
-				id: "761901C9C44EBBBF"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
+			tasks: [
+				{
+					id: "761901C9C44EBBBF"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 10L
+				}
+				{
+					id: "2FD3E8B77E0CBB53"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "6D5395812A81E848"
+					type: "item"
+					item: {
+						id: "vampirism:vampire_book"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "42B696CE92EFF66C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 5L
+				}
+			]
 		}
 		{
+			title: "Level 6"
 			x: 12.0d
 			y: 1.0d
+			dependencies: ["5DD2DE8C9E05E107"]
 			id: "48AB3900FD7608A4"
+			tasks: [
+				{
+					id: "6D3D5D25A9CAF0F6"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+				{
+					id: "7CC08DA86FC726E8"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "2524238A24A1396D"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "29DEE7A47E029051"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Level 7"
+			x: 13.5d
+			y: 1.0d
+			dependencies: [
+				"48AB3900FD7608A4"
+				"4CE98D307861DC96"
+			]
+			id: "63EE8579908C2AAC"
+			tasks: [
+				{
+					id: "01C2C667C93ED692"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+				{
+					id: "225308EE7E3104F8"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 5L
+				}
+				{
+					id: "554D43BFFA9AF33C"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "3591E28427AC3233"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "44FA8F267301E0C8"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 15L
+				}
+			]
+		}
+		{
+			title: "Level 8"
+			x: 15.0d
+			y: 1.0d
+			dependencies: ["63EE8579908C2AAC"]
+			id: "557623BDC2A32BA5"
+			tasks: [
+				{
+					id: "40F55B2176889286"
+					type: "item"
+					item: "vampirism:pure_blood_1"
+				}
+				{
+					id: "6EA1C519B2344374"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "3FC89423BA93FD50"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "17181606ECB6EEBC"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 40L
+				}
+			]
+		}
+		{
+			title: "Level 9"
+			x: 16.5d
+			y: 1.0d
+			dependencies: [
+				"557623BDC2A32BA5"
+				"1C9D56D42D9A82E2"
+			]
+			id: "3434E7EEE766171D"
+			tasks: [
+				{
+					id: "553801C1F1C5DD69"
+					type: "item"
+					item: "vampirism:pure_blood_1"
+				}
+				{
+					id: "29FE66C5723CCD56"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 5L
+				}
+				{
+					id: "396F5C43B5E31686"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "310F768200025462"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "4420FAC67CBB6260"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 20L
+				}
+				{
+					id: "2225D624E0D268E6"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Level 10"
+			x: 18.0d
+			y: 1.0d
+			dependencies: ["3434E7EEE766171D"]
+			id: "1B6D19F5249EE415"
+			tasks: [
+				{
+					id: "0F02CEBC962BA72E"
+					type: "item"
+					item: "vampirism:pure_blood_2"
+				}
+				{
+					id: "31DD0958E67B2832"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 5L
+				}
+				{
+					id: "2DB323B90C3497C4"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "77131BCFBDC78AB8"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "7524E40E2031CCB7"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 20L
+				}
+				{
+					id: "4BA6C4ABE7B47160"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 20L
+				}
+			]
+		}
+		{
+			title: "Level 11"
+			x: 19.5d
+			y: 1.0d
+			dependencies: [
+				"1B6D19F5249EE415"
+				"76FD17F9974EBE45"
+			]
+			id: "128DB891325C75D3"
+			tasks: [
+				{
+					id: "22643DD689B4BC6E"
+					type: "item"
+					item: "vampirism:pure_blood_2"
+				}
+				{
+					id: "7334A2904021694C"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 10L
+				}
+				{
+					id: "78C45494AE084980"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "6828A4E08A7D6B63"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "273299BF59467D81"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 20L
+				}
+				{
+					id: "7F48A5EEDD640523"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Level 12"
+			x: 21.0d
+			y: 1.0d
+			dependencies: ["128DB891325C75D3"]
+			id: "693AA5286A417686"
+			tasks: [
+				{
+					id: "66C0A82BF567DF56"
+					type: "item"
+					item: "vampirism:pure_blood_3"
+				}
+				{
+					id: "1D60F0E13FF05A8D"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 10L
+				}
+				{
+					id: "4B80769E79D0D1E1"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "1F9670B2FED58320"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "7910355FC5B186E4"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 30L
+				}
+				{
+					id: "358878C4266E4343"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Level 13"
+			x: 22.5d
+			y: 1.0d
+			dependencies: ["693AA5286A417686"]
+			id: "7C524C1B9D1EBF9F"
+			tasks: [
+				{
+					id: "18FB7BA879B81CF1"
+					type: "item"
+					item: "vampirism:pure_blood_3"
+					count: 2L
+				}
+				{
+					id: "3802B5BE5575A083"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "75A006CB87CB1C86"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "355DDBA259F249CC"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 40L
+				}
+				{
+					id: "6CD949BDB9A0549C"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 20L
+				}
+			]
+		}
+		{
+			title: "Level 14"
+			x: 24.0d
+			y: 1.0d
+			dependencies: ["7C524C1B9D1EBF9F"]
+			id: "3FE06CDFD9E8E34B"
+			tasks: [
+				{
+					id: "0FF1DF5A86132C07"
+					type: "item"
+					item: "vampirism:pure_blood_4"
+					count: 2L
+				}
+				{
+					id: "793315115DD56482"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 25L
+				}
+				{
+					id: "4214095FB0EE67F5"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "6BF96EF92D5C28D1"
+					type: "item"
+					item: "vampirism:vampire_book"
+				}
+				{
+					id: "07838429E00BF839"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 40L
+				}
+				{
+					id: "4AC6B6357C11B093"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 40L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: ["jez andere trainer + diese tables"]
+			id: "05E3C14D3BC29FAC"
 			tasks: [{
-				id: "0210678CE9437017"
-				type: "item"
-				item: "vampirism:vampire_fang"
+				id: "3DAC894C70125900"
+				type: "gamestage"
+				title: "I need more Levels!!!!"
+				icon: "vampirism:pure_blood_4"
+				stage: "vampirism_quests_advanced"
 			}]
 		}
 		{
 			x: 13.5d
-			y: 1.0d
-			id: "63EE8579908C2AAC"
+			y: -0.5d
+			id: "4CE98D307861DC96"
 			tasks: [{
-				id: "5088A14533BDAFB7"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 1.0d
-			id: "557623BDC2A32BA5"
-			tasks: [{
-				id: "4F9F92A8B1506B6F"
-				type: "item"
-				item: "vampirism:vampire_fang"
+				id: "2BF2E427864B2E94"
+				type: "checkmark"
+				title: "Next Table"
 			}]
 		}
 		{
 			x: 16.5d
-			y: 1.0d
-			id: "3434E7EEE766171D"
+			y: -0.5d
+			id: "1C9D56D42D9A82E2"
 			tasks: [{
-				id: "40EA8C621A446AC0"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 18.0d
-			y: 1.0d
-			id: "1B6D19F5249EE415"
-			tasks: [{
-				id: "02FBB7B0D059C0B1"
-				type: "item"
-				item: "vampirism:vampire_fang"
+				id: "0704500BD321C915"
+				type: "checkmark"
+				title: "Next Table"
 			}]
 		}
 		{
 			x: 19.5d
-			y: 1.0d
-			id: "128DB891325C75D3"
+			y: -0.5d
+			id: "76FD17F9974EBE45"
 			tasks: [{
-				id: "444CF2D646BA2DB3"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 21.0d
-			y: 1.0d
-			id: "693AA5286A417686"
-			tasks: [{
-				id: "13F6E3ABD8CF83F4"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 22.5d
-			y: 1.0d
-			id: "7C524C1B9D1EBF9F"
-			tasks: [{
-				id: "2C96CEFCA3895E00"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 24.0d
-			y: 1.0d
-			id: "3FE06CDFD9E8E34B"
-			tasks: [{
-				id: "53A50D8A4559E93C"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 25.5d
-			y: 1.0d
-			id: "65C8FFC64638721F"
-			tasks: [{
-				id: "02A1582FC0798525"
-				type: "item"
-				item: "vampirism:vampire_fang"
-			}]
-		}
-		{
-			x: 27.0d
-			y: 1.0d
-			id: "6613BDB9B86F4C8A"
-			tasks: [{
-				id: "41F6909580D9C88D"
-				type: "item"
-				item: "vampirism:vampire_fang"
+				id: "33251CB8F8C79DDA"
+				type: "checkmark"
+				title: "Next Table"
 			}]
 		}
 	]

@@ -7,5 +7,57 @@
 	icon: "vampirism:vampire_fang"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6855A788D2EFF0AA"
+			tasks: [{
+				id: "0B4895558E017B11"
+				type: "observation"
+				title: "Find a Vampire"
+				icon: "vampirism:vampire_fang"
+				timer: 0L
+				observe_type: 5
+				to_observe: "vampirism:vampire"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "2A5B98DB4A52F52A"
+			tasks: [{
+				id: "69480D9C33A73786"
+				type: "checkmark"
+				title: "Become a Vampire"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "175D96ACE0CA69B5"
+			tasks: [{
+				id: "429D9B5CA27FCE5A"
+				type: "item"
+				item: "vampirism:altar_inspiration"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "04CC32A65BB7DAD0"
+			tasks: [{
+				id: "039101771F5331DD"
+				type: "custom"
+				title: "40 Blood"
+				icon: {
+					id: "vampirism:blood_bottle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }

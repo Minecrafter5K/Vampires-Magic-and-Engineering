@@ -476,6 +476,14 @@
 				type: "item"
 				item: "minecraft:chest"
 			}]
+			rewards: [{
+				id: "2757AE28C8A6D1FC"
+				type: "gamestage"
+				title: "Storage"
+				icon: "minecraft:chest"
+				auto: "enabled"
+				stage: "storage"
+			}]
 		}
 		{
 			x: 10.5d
@@ -639,6 +647,18 @@
 				title: "Become a Vampire Hunter"
 				auto: "invisible"
 				stage: ""
+			}]
+		}
+		{
+			title: "Diamonds!"
+			x: 18.0d
+			y: 2.5d
+			dependencies: ["606E5BAD59EFDE62"]
+			id: "58C337927420E3FA"
+			tasks: [{
+				id: "150C85A0E4053BAF"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 	]

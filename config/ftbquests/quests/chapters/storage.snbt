@@ -1,0 +1,21 @@
+{
+	id: "4E122EAD6E1DD52F"
+	group: "022111045672B9AE"
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "6EDE77EB7957B9DD"
+		tasks: [{
+			id: "17BDD67006AEE124"
+			type: "gamestage"
+			title: "Storage"
+			icon: "minecraft:chest"
+			stage: "storage"
+		}]
+	}]
+}
