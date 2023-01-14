@@ -25,6 +25,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			dependencies: ["6855A788D2EFF0AA"]
 			id: "2A5B98DB4A52F52A"
 			tasks: [{
 				id: "69480D9C33A73786"
@@ -35,6 +36,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			dependencies: ["2A5B98DB4A52F52A"]
 			id: "175D96ACE0CA69B5"
 			tasks: [{
 				id: "429D9B5CA27FCE5A"
@@ -45,6 +47,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			dependencies: ["175D96ACE0CA69B5"]
 			id: "04CC32A65BB7DAD0"
 			tasks: [{
 				id: "039101771F5331DD"

@@ -28,6 +28,9 @@
 	umbrella = false
 	#Enforce tent generation in any overworld world, even if they were not included in modded or datapack world-types on purpose. Does not affect Server#disableTentGeneration or disable tent generation itself.
 	enforceOverworldTentGeneration = true
+	#Enable a custom vampirism log file that logs specific faction actions
+	#Requires restart
+	enableFactionLogging = false
 
 	[common-server.mobspawn]
 		#Vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
