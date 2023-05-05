@@ -65,7 +65,7 @@
 					id: "59AFB234AF733ED8"
 					type: "observation"
 					title: "Find a Injction Chair in a Village"
-					icon: "vampirism:item_med_chair"
+					icon: "vampirism:med_chair"
 					timer: 0L
 					observe_type: 0
 					to_observe: "vampirism:med_chair"

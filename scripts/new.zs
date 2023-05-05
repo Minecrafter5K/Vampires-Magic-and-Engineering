@@ -7,3 +7,6 @@ import mods.contenttweaker.item.tool.ItemBuilderTool;
 new ItemBuilder().build("core_stone");
 new ItemBuilder().build("core_iron");
 new ItemBuilder().build("core_diamond");
+
+// vampirism
+new ItemBuilder().build("pillar_core");

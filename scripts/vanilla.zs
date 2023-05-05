@@ -44,3 +44,10 @@ for item in vanillaTools {
 
 // remove ingot furnace recepies
 furnace.removeRecipe(<tag:items:forge:ingots>);
+
+// add new recepie for blast funrnace
+craftingTable.addShaped("clay_blast_furnace", <item:minecraft:blast_furnace>, [
+    [<item:spareparts:plates/fired_clay>, <item:spareparts:plates/fired_clay>, <item:spareparts:plates/fired_clay>],
+    [<item:spareparts:plates/fired_clay>, <item:minecraft:furnace>, <item:spareparts:plates/fired_clay>],
+    [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]
+]);

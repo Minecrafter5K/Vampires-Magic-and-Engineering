@@ -7,5 +7,28 @@
 	icon: "astralsorcery:tome"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		title: "The myserios power of the Stars"
+		x: 0.0d
+		y: 0.0d
+		description: [
+			""
+			""
+			"Find a Ancient Shrine and place a Crafting Table under the Collector Crystal."
+			"The Collector Crystal needs clear view to the Sky to function properly."
+		]
+		id: "04E3C3F47152DC3E"
+		tasks: [{
+			id: "57FA71DF643F3C3B"
+			type: "item"
+			item: "astralsorcery:altar_discovery"
+		}]
+		rewards: [{
+			id: "4C64022B75372C00"
+			type: "item"
+			item: "astralsorcery:aquamarine"
+			count: 6
+			random_bonus: 6
+		}]
+	}]
 }

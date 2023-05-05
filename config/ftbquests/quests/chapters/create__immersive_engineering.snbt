@@ -1,0 +1,79 @@
+{
+	id: "5913FC4065087531"
+	group: "7208B33F58F7A2C5"
+	order_index: 3
+	filename: "create__immersive_engineering"
+	title: "Create + Immersive Engineering"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "693123C20C9F4577"
+			tasks: [
+				{
+					id: "7DCDB22A6AB7EA4E"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "45436025E5EA93E1"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "41B462D7E4B2816F"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "00F6C370683A07A4"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["29E1056D8D6EA5BD"]
+			id: "4EE2FA5D997C9915"
+			tasks: [
+				{
+					id: "404282A106B4FA05"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "626760A086539DBF"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["4EE2FA5D997C9915"]
+			id: "1914BA1912AD5D9E"
+			tasks: [{
+				id: "37B728F1859DC53D"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["693123C20C9F4577"]
+			id: "29E1056D8D6EA5BD"
+			tasks: [{
+				id: "162D2DE77F146B5F"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+	]
+}

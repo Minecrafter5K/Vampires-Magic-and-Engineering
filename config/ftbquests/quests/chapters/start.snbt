@@ -63,7 +63,7 @@
 			]
 		}
 		{
-			title: "Flint Shards! and some Sticks"
+			title: "Flint Shards and some Sticks"
 			icon: "notreepunching:flint_shard"
 			x: 7.5d
 			y: 0.0d
@@ -73,7 +73,7 @@
 				{
 					id: "451BF0A3D3421924"
 					type: "item"
-					title: "Any #forge:rods/wooden"
+					title: "Stick"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -201,6 +201,19 @@
 					type: "item"
 					item: "silentgear:axe_template"
 				}
+				{
+					id: "57765EE2555CB122"
+					type: "gamestage"
+					title: "Craft Silent Gear Tools"
+					icon: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					stage: "crafted_silentgear"
+				}
 			]
 		}
 		{
@@ -258,7 +271,7 @@
 					id: "45516EB8909A6C66"
 					type: "item"
 					item: "minecraft:oak_log"
-					count: 16
+					count: 8
 					random_bonus: 8
 				}
 			]
@@ -639,7 +652,7 @@
 			tasks: [{
 				id: "5B8A3CD599484A50"
 				type: "checkmark"
-				title: "or Vampire Hunter?"
+				title: ".....or Vampire Hunter?"
 			}]
 			rewards: [{
 				id: "511372DF1EBD0135"

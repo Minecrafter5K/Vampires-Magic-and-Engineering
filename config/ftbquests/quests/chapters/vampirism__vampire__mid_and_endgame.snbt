@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.5d
 			description: ["anderer altar"]
 			id: "35F1AAEB00B641C3"
 			tasks: [
@@ -19,7 +19,7 @@
 					type: "gamestage"
 					title: "I need more Levels!!!!"
 					icon: "vampirism:human_heart"
-					stage: ""
+					stage: "vampirism_erlygame"
 				}
 				{
 					id: "0BD5DF8BC9DB539B"
@@ -29,8 +29,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 			dependencies: ["35F1AAEB00B641C3"]
 			id: "4126535BC0C6AC4A"
 			tasks: [
@@ -45,6 +45,27 @@
 					item: "vampirism:altar_tip"
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["4126535BC0C6AC4A"]
+			id: "65D4222EA7AA5583"
+			tasks: [{
+				id: "53C7AFA53B2D46A6"
+				type: "item"
+				item: "vampirism:human_heart"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "4FC1B1B400A02685"
+			tasks: [{
+				id: "4717C98A45C5775F"
+				type: "item"
+				item: "vampirism:human_heart"
+			}]
 		}
 	]
 }

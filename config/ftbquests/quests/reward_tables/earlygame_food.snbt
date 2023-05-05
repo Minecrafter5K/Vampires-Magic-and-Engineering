@@ -10,6 +10,6 @@
 		{ item: "quark:potato_crate", weight: 2 }
 		{ item: "farmersdelight:stuffed_potato", weight: 2 }
 		{ item: "minecraft:bread", count: 3, random_bonus: 3, weight: 6 }
-		{ item: "minecraft:golden_apple", count: 1, random_bonus: 1 }
+		{ item: "minecraft:golden_apple", random_bonus: 1 }
 	]
 }

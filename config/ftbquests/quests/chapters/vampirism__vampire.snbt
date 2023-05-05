@@ -45,13 +45,14 @@
 			}]
 		}
 		{
+			title: "Level 2"
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["175D96ACE0CA69B5"]
 			id: "04CC32A65BB7DAD0"
 			tasks: [{
-				id: "039101771F5331DD"
-				type: "custom"
+				id: "63E6C0607250A536"
+				type: "checkmark"
 				title: "40 Blood"
 				icon: {
 					id: "vampirism:blood_bottle"
@@ -60,6 +61,44 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Level 3"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["04CC32A65BB7DAD0"]
+			id: "38041DAD4F6F49EE"
+			tasks: [{
+				id: "5105C0E5D18EBF2D"
+				type: "checkmark"
+				title: "70 Blood"
+				icon: {
+					id: "vampirism:blood_bottle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Level 4"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["38041DAD4F6F49EE"]
+			id: "226212CE1E1B1188"
+			tasks: [{
+				id: "12785145DA68B9A5"
+				type: "checkmark"
+				title: "100 Blood"
+			}]
+			rewards: [{
+				id: "32D604055F62DD53"
+				type: "gamestage"
+				title: "vampirism_earlygame"
+				auto: "invisible"
+				stage: ""
 			}]
 		}
 	]

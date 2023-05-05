@@ -1,26 +1,18 @@
 # Vampires Magic and Engineering
 ## Progression
-### Early to Midgame
-**Vampirism** (Basic) + **Botania** -> **Vampirism** (Mid)
+### Vampire
+Botania -> Astral Sourcery -> Extended Crafting
+Bonus: Angel Ring
 
-**Vampirism** (Mid) + **Botania** -> **AstralSorcery** (Basic - Mid)
-
-### Endgame
-#### Vampire:
-**AstralSorcery** + **Mahou Tsukai** -> **Vampirism** (end)
-
-#### Vampire Hunter
-Immersive + ExtendedCrafting -> **Vampirism** (end)
-
-#### Angel Ring
-**AstralSorcery** + **Botania** + **Immersive**/**Mahou Tsukai** + **Vampirism** + **Aquaculture** + **ExtendedCrafting** -> **_AngelRing_**
+### Vampire Hunter
+Create -> Immersive Engineering -> Extended Crafting
+Bonus: Angel Ring
 
 ## Mods
 ### Big Content Mods
 - [Vampirism - Become a vampire! (by maxanier)](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 - [Astral Sorcery (by HellFirePvP)](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 - [Botania (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/botania)
-- [Mahou Tsukai (by stepcros)](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai)
 - [Silent Gear (by SilentChaos512)](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
 - [Extended Crafting (by BlakeBr0)](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
 - [Create (by simibubi)](https://www.curseforge.com/minecraft/mc-mods/create)
@@ -29,6 +21,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 
 ### Small Content Mods
 - [Angel Ring (by DenisMasterHerobrine)](https://www.curseforge.com/minecraft/mc-mods/angel-ring)
+- [Applied Energistics 2 (by AlgorithmX2)](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
 - [Lootr (Forge) (by Noobanidus)](https://www.curseforge.com/minecraft/mc-mods/lootr)
 - [Quark (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/quark)
 - [Tinkers Construct (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
@@ -51,7 +44,6 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Create Deco (by talrey)](https://www.curseforge.com/minecraft/mc-mods/create-deco)
 - [Water Strainer (by Ruuubi)](https://www.curseforge.com/minecraft/mc-mods/water-strainer)
 - [Construction Wand (by ThetaDev)](https://www.curseforge.com/minecraft/mc-mods/construction-wand)
-- [Refined Storage (by raoulvdberge)](https://www.curseforge.com/minecraft/mc-mods/refined-storage)
 - [Additional Bars - Biomes O' Plenty addon (by Gamma1772)](https://www.curseforge.com/minecraft/mc-mods/additional-bars-biomes-o-plenty-addon)
 - [Platforms (by ShetiPhian)](https://www.curseforge.com/minecraft/mc-mods/platforms)
 - [Farmer's Delight (by vectorwing)](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
@@ -59,7 +51,6 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Bamboo Tweaks (Forge) (by vini2003_dev)](https://www.curseforge.com/minecraft/mc-mods/bamboo-tweaks-forge)
 - [Desolation (Forge) (by y4z0n)](https://www.curseforge.com/minecraft/mc-mods/desolation-forge)
 - [Immersive Petroleum (by Flaxbeard)](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
-- [FTB Sluice (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-sluice)
 - [Charm Reforged (by svenhjol)](https://www.curseforge.com/minecraft/mc-mods/charm-reforged)
 - [Aquaculture 2 (by Shadowclaimer)](https://www.curseforge.com/minecraft/mc-mods/aquaculture)
 - [The Bumblezone (Forge) (by telepathicgrunt)](https://www.curseforge.com/minecraft/mc-mods/the-bumblezone-forge)
@@ -71,7 +62,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Honey Expansion (Add-on for Farmer's Delight) (by Spiteful_raccoon)](https://www.curseforge.com/minecraft/mc-mods/honey-expansion-add-on-for-farmers-delight)
 - [Nature's Compass (by Chaosyr)](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 - [Item Filters (by LatvianModder)](https://www.curseforge.com/minecraft/mc-mods/item-filters)
-
+- [Supplementaries (by MehVahdJukaar)](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 
 ### World Generation
 - [Project: Vibrant Journeys (by OrderedChaosDev)](https://www.curseforge.com/minecraft/mc-mods/project-vibrant-journeys)
@@ -167,6 +158,7 @@ Immersive + ExtendedCrafting -> **Vampirism** (end)
 - [Clumps (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/clumps)
 - [It's the little things (by Zlepper)](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 - [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
+- [AppliedEnergisticsTweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/appliedenergisticstweaker)
 
 
 ### Lib Mods
