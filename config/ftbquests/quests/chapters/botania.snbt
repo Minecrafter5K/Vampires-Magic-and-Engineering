@@ -66,6 +66,7 @@
 			}]
 		}
 		{
+			icon: "botania:apothecary_default"
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["6298EE1996B7F638"]
@@ -77,14 +78,14 @@
 					item: "botania:apothecary_default"
 				}
 				{
-					id: "1FAA1F38C4999947"
+					id: "58D97CF2BCB04C1C"
 					type: "item"
-					title: "Any #ftbsluice:water_buckets"
+					title: "Any #forge:buckets"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
 						tag: {
-							value: "ftbsluice:water_buckets"
+							value: "forge:buckets"
 						}
 					}
 				}

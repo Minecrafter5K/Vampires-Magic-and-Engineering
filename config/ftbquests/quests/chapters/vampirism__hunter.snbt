@@ -427,9 +427,9 @@
 			y: -0.5d
 			id: "4CE98D307861DC96"
 			tasks: [{
-				id: "2BF2E427864B2E94"
-				type: "checkmark"
-				title: "Next Table"
+				id: "6480C8E61E76C69A"
+				type: "item"
+				item: "vampirism:potion_table"
 			}]
 		}
 		{
@@ -437,9 +437,9 @@
 			y: -0.5d
 			id: "1C9D56D42D9A82E2"
 			tasks: [{
-				id: "0704500BD321C915"
-				type: "checkmark"
-				title: "Next Table"
+				id: "1AE6BCCD4D3CC0DF"
+				type: "item"
+				item: "vampirism:weapon_table"
 			}]
 		}
 		{
@@ -447,9 +447,9 @@
 			y: -0.5d
 			id: "76FD17F9974EBE45"
 			tasks: [{
-				id: "33251CB8F8C79DDA"
-				type: "checkmark"
-				title: "Next Table"
+				id: "1677CD1A1C2DC642"
+				type: "item"
+				item: "vampirism:alchemical_cauldron"
 			}]
 		}
 	]
