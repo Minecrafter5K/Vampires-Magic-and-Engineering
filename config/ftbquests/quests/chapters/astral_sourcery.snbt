@@ -7,28 +7,99 @@
 	icon: "astralsorcery:tome"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "The myserios power of the Stars"
-		x: 0.0d
-		y: 0.0d
-		description: [
-			""
-			""
-			"Find a Ancient Shrine and place a Crafting Table under the Collector Crystal."
-			"The Collector Crystal needs clear view to the Sky to function properly."
-		]
-		id: "04E3C3F47152DC3E"
-		tasks: [{
-			id: "57FA71DF643F3C3B"
-			type: "item"
-			item: "astralsorcery:altar_discovery"
-		}]
-		rewards: [{
-			id: "4C64022B75372C00"
-			type: "item"
-			item: "astralsorcery:aquamarine"
-			count: 6
-			random_bonus: 6
-		}]
-	}]
+	quests: [
+		{
+			title: "The myserios power of the Stars"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Find a Ancient Shrine and place a Crafting Table under the Collector Crystal."
+				"The Collector Crystal needs clear view to the Sky to function properly."
+			]
+			dependencies: ["2EAE13AACF7FCC4C"]
+			id: "04E3C3F47152DC3E"
+			tasks: [{
+				id: "57FA71DF643F3C3B"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "4C64022B75372C00"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 6
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["3FF290A643D3478A"]
+			id: "2EAE13AACF7FCC4C"
+			tasks: [{
+				id: "1CF8D4B2E5CFBD0F"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "The Book of Books. Or of the Starlight."
+			description: ["Tip: you can (by Shift+Right Click) store consterlation papers in the Astral Tome."]
+			id: "3FF290A643D3478A"
+			tasks: [{
+				id: "4D4BDCEF5F450DA0"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			title: "The first item from the Luminos Crafting Table"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Illumination Power is a great light source. It can be placed or thrown."
+			description: [
+				"The Luminous Crafting Table needs Starlight for its crafting capabilities. There are many ways to get more Starlight but for now only 2 are relevant:"
+				""
+				"1. The closer to midnight it is, the more starlight you´ll have"
+				"2. The higher you go, the more Starlight you´ll have (Max. 120 blocks)"
+			]
+			dependencies: ["04E3C3F47152DC3E"]
+			id: "450917917515DD83"
+			tasks: [{
+				id: "10B9E9BC04223123"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "The dark Illumination Powder"
+			description: [
+				"When its placed it will spawn mobs. Many Mobs."
+				"It ignores all spawning limitations and lasts only around 30 seconds"
+			]
+			dependencies: ["450917917515DD83"]
+			id: "3D34789677075284"
+			tasks: [{
+				id: "2E10F481D906E537"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: ["If you place this block anywhere in the world (also overground), it´ll illuminate all caves and mines in a pretty big radius"]
+			dependencies: ["450917917515DD83"]
+			id: "7EE8632204E0AF79"
+			tasks: [{
+				id: "313D28B2A6A55330"
+				type: "item"
+				item: "astralsorcery:illuminator"
+			}]
+		}
+	]
 }

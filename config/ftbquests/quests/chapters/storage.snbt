@@ -6,16 +6,151 @@
 	title: "Storage"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "6EDE77EB7957B9DD"
-		tasks: [{
-			id: "17BDD67006AEE124"
-			type: "gamestage"
-			title: "Storage"
-			icon: "minecraft:chest"
-			stage: "storage"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6EDE77EB7957B9DD"
+			tasks: [{
+				id: "17BDD67006AEE124"
+				type: "gamestage"
+				title: "Storage"
+				icon: "minecraft:chest"
+				stage: "storage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3C9D04EB1E6DFC8D"
+			tasks: [{
+				id: "39889D018B6FA83F"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "512BF011FC8C7053"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "400FBD24C021F4F0"
+			tasks: [{
+				id: "63613688C778E5FB"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "554D7D764A8793F9"
+				type: "random"
+				table_id: 1593057189636281790L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			id: "0E4B7532DD2A56CA"
+			tasks: [
+				{
+					id: "253B30F3B9A43EC5"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "61B0DD8B82F11759"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "21BDECCD6D9690CC"
+			tasks: [
+				{
+					id: "1AC6362E5DE7E76D"
+					type: "item"
+					item: "appliedenergistics2:charger"
+				}
+				{
+					id: "285B2C2CA9EAA0BF"
+					type: "item"
+					item: "appliedenergistics2:certus_quartz_crystal"
+				}
+			]
+			rewards: [{
+				id: "4C055EB307046BCC"
+				type: "item"
+				item: "appliedenergistics2:tiny_tnt"
+				count: 5
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			id: "39E959922DC82E95"
+			tasks: [{
+				id: "7E871A49CC56D208"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "5E5C844A7C7EBC38"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			id: "1BCFBC836BBEC3DC"
+			tasks: [{
+				id: "361495779D821264"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			id: "12F262203560FF4C"
+			tasks: [
+				{
+					id: "3FA59D26DD6EB716"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "1B7C14C2B907F2F5"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "4AE829F6385892B9"
+					type: "item"
+					item: "storagedrawers:shroud_key"
+				}
+			]
+			rewards: [{
+				id: "1484A2CF7F35D50D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
 }

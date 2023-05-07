@@ -27,6 +27,12 @@
 					item: "vampirism:altar_infusion"
 				}
 			]
+			rewards: [{
+				id: "7335A8ADF1817092"
+				type: "item"
+				item: "contenttweaker:pillar_core"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d
@@ -38,15 +44,18 @@
 					id: "6AB4CC5FEA07E903"
 					type: "item"
 					item: "vampirism:altar_pillar"
+					count: 8L
 				}
 				{
 					id: "5D83C1FD5A97FBA5"
 					type: "item"
 					item: "vampirism:altar_tip"
+					count: 4L
 				}
 			]
 		}
 		{
+			title: "Level 5"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["4126535BC0C6AC4A"]
@@ -55,16 +64,265 @@
 				id: "53C7AFA53B2D46A6"
 				type: "item"
 				item: "vampirism:human_heart"
+				count: 5L
 			}]
 		}
 		{
+			title: "Level 6"
 			x: 1.5d
 			y: 0.0d
+			dependencies: ["65D4222EA7AA5583"]
 			id: "4FC1B1B400A02685"
+			tasks: [
+				{
+					id: "4717C98A45C5775F"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 5L
+				}
+				{
+					id: "22944D9441D1BC1F"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+			]
+		}
+		{
+			title: "Level 7"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["4FC1B1B400A02685"]
+			id: "2A6BEB0338C4B32E"
+			tasks: [
+				{
+					id: "7F201BA71924DD01"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 10L
+				}
+				{
+					id: "31538A00B54F6509"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+			]
+		}
+		{
+			title: "Level 8"
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"2A6BEB0338C4B32E"
+				"221B32E5886A4A5C"
+			]
+			id: "017296B3FD1A2C8D"
+			tasks: [
+				{
+					id: "45C08C2B82851992"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 10L
+				}
+				{
+					id: "792E2401A581A39C"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+			]
+		}
+		{
+			title: "Level 9"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["017296B3FD1A2C8D"]
+			id: "31178754D7A27575"
+			tasks: [
+				{
+					id: "48FA1705FCC6C307"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 10L
+				}
+				{
+					id: "4710FCEE2E14D4C2"
+					type: "item"
+					item: "vampirism:pure_blood_1"
+				}
+			]
+		}
+		{
+			title: "Level 10"
+			x: 7.5d
+			y: 0.0d
+			dependencies: [
+				"31178754D7A27575"
+				"014B85A06FC72229"
+			]
+			id: "2EDB902134839172"
+			tasks: [
+				{
+					id: "38A84BE92558379B"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 15L
+				}
+				{
+					id: "47F4023650FD4483"
+					type: "item"
+					item: "vampirism:pure_blood_2"
+				}
+			]
+		}
+		{
+			title: "Level 11"
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["2EDB902134839172"]
+			id: "296B3015B5747844"
+			tasks: [
+				{
+					id: "1C4EC84F07A748B3"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 15L
+				}
+				{
+					id: "0BB7008EE316B714"
+					type: "item"
+					item: "vampirism:pure_blood_2"
+				}
+			]
+		}
+		{
+			title: "Level 12"
+			x: 10.5d
+			y: 0.0d
+			dependencies: [
+				"296B3015B5747844"
+				"350995BB8D9C2977"
+			]
+			id: "43D5E9FF0569EC97"
+			tasks: [
+				{
+					id: "28C00EF05EA584DC"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 20L
+				}
+				{
+					id: "508965787C04A7AA"
+					type: "item"
+					item: "vampirism:pure_blood_3"
+				}
+			]
+		}
+		{
+			title: "Level 13"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["43D5E9FF0569EC97"]
+			id: "7AF8079823AAC443"
+			tasks: [
+				{
+					id: "0C0C40F3AC39135E"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 20L
+				}
+				{
+					id: "4CB90FAFDF2AB0EF"
+					type: "item"
+					item: "vampirism:pure_blood_3"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Level 14"
+			x: 13.5d
+			y: 0.0d
+			dependencies: ["7AF8079823AAC443"]
+			id: "53F9CACEBABB8FA8"
+			tasks: [
+				{
+					id: "23108955E7008BC6"
+					type: "item"
+					item: "vampirism:human_heart"
+					count: 25L
+				}
+				{
+					id: "53B071D94BE16CC4"
+					type: "item"
+					item: "vampirism:pure_blood_4"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "221B32E5886A4A5C"
 			tasks: [{
-				id: "4717C98A45C5775F"
+				id: "725B201C5AAAB7CE"
 				type: "item"
-				item: "vampirism:human_heart"
+				item: "botania:manasteel_ingot"
+				count: 6L
+			}]
+			rewards: [{
+				id: "5661D50049A59CC0"
+				type: "item"
+				item: "contenttweaker:pillar_core"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			id: "014B85A06FC72229"
+			tasks: [
+				{
+					id: "1D1C5433F7012177"
+					type: "item"
+					item: "vampirism:altar_tip"
+					count: 2L
+				}
+				{
+					id: "05B1A29A47EE428F"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "768B3732968D00C0"
+				type: "item"
+				item: "contenttweaker:pillar_core"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			id: "350995BB8D9C2977"
+			tasks: [
+				{
+					id: "4B1F20245BAC9540"
+					type: "item"
+					item: "botania:elementium_ingot"
+					count: 2L
+				}
+				{
+					id: "04760AEC81AAB77D"
+					type: "item"
+					item: "astralsorcery:infused_wood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "5C3C3045BEA0217C"
+				type: "item"
+				item: "contenttweaker:pillar_core"
+				count: 4
 			}]
 		}
 	]

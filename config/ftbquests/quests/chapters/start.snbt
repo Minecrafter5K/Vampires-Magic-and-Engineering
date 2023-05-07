@@ -455,6 +455,11 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+			rewards: [{
+				id: "1D1C23BA61686273"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
 			x: 19.0d
@@ -465,6 +470,11 @@
 				id: "72F6357D6D32B5B0"
 				type: "item"
 				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "3E4B289ACC31DFA4"
+				type: "xp"
+				xp: 500
 			}]
 		}
 		{
@@ -477,6 +487,11 @@
 				id: "204D105805EA4A56"
 				type: "item"
 				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "5BE6AEF99886423D"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 		}
 		{
@@ -672,6 +687,11 @@
 				id: "150C85A0E4053BAF"
 				type: "item"
 				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "7E2F325306F14C06"
+				type: "xp_levels"
+				xp_levels: 8
 			}]
 		}
 	]

@@ -17,11 +17,13 @@
 					id: "7DCDB22A6AB7EA4E"
 					type: "item"
 					item: "create:water_wheel"
+					count: 3L
 				}
 				{
 					id: "45436025E5EA93E1"
 					type: "item"
 					item: "create:shaft"
+					count: 32L
 				}
 				{
 					id: "41B462D7E4B2816F"
@@ -33,12 +35,18 @@
 					type: "item"
 					item: "create:cogwheel"
 				}
+				{
+					id: "4BA54FC8F73B5BB6"
+					type: "item"
+					item: "create:belt_connector"
+					count: 8L
+				}
 			]
 		}
 		{
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
-			dependencies: ["29E1056D8D6EA5BD"]
+			dependencies: ["4AEA037581ECD8F4"]
 			id: "4EE2FA5D997C9915"
 			tasks: [
 				{
@@ -51,12 +59,25 @@
 					type: "item"
 					item: "create:basin"
 				}
+				{
+					id: "7B4C228AC427F0EA"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 16L
+				}
 			]
+			rewards: [{
+				id: "1994AA652340B97E"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 8
+				random_bonus: 6
+			}]
 		}
 		{
-			x: 4.5d
+			x: 1.5d
 			y: 0.0d
-			dependencies: ["4EE2FA5D997C9915"]
+			dependencies: ["693123C20C9F4577"]
 			id: "1914BA1912AD5D9E"
 			tasks: [{
 				id: "37B728F1859DC53D"
@@ -65,14 +86,201 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
-			dependencies: ["693123C20C9F4577"]
+			dependencies: ["1914BA1912AD5D9E"]
 			id: "29E1056D8D6EA5BD"
+			tasks: [
+				{
+					id: "162D2DE77F146B5F"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "31D400E6A7090918"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["6C70C21A2A9BB11C"]
+			id: "12A0F7E9CCE0A3C8"
 			tasks: [{
-				id: "162D2DE77F146B5F"
+				id: "5E4C15168F715487"
 				type: "item"
-				item: "create:mechanical_press"
+				item: "create:deployer"
+			}]
+		}
+		{
+			title: "A automated wood farm"
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["4EE2FA5D997C9915"]
+			id: "5036E4257CD68D4C"
+			tasks: [
+				{
+					id: "1DB253B6EC906CE3"
+					type: "item"
+					item: "create:mechanical_saw"
+					count: 3L
+				}
+				{
+					id: "5C8DC56D89B56228"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "1BEDF382EBE03A01"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "I need more energy"
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["4EE2FA5D997C9915"]
+			id: "18B61D4178463002"
+			tasks: [
+				{
+					id: "50AF656C6E1896D0"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "6FD02852DB0286C0"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["4EE2FA5D997C9915"]
+			id: "3ECF9152C278FC17"
+			tasks: [{
+				id: "4547C567DF38E270"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "0DAFB51DA708D725"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["2568E918A4414817"]
+			id: "479D98746EA1E9F3"
+			tasks: [
+				{
+					id: "03D9A92DD3FB71A3"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+				{
+					id: "184CB600306EFF2E"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			dependencies: ["479D98746EA1E9F3"]
+			id: "551978CB9C403DA2"
+			tasks: [{
+				id: "639F22A0D74F6196"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+				count: 8L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["3ECF9152C278FC17"]
+			id: "6C70C21A2A9BB11C"
+			tasks: [{
+				id: "18DA43739923A682"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.5d
+			dependencies: ["551978CB9C403DA2"]
+			id: "39848DABFA2296BD"
+			tasks: [
+				{
+					id: "77D2D3E1D0CAE333"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "57CB98B9AA3E4D8F"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Your first steel!"
+			x: 17.0d
+			y: -1.5d
+			dependencies: ["39848DABFA2296BD"]
+			id: "3E3B17108EE819C9"
+			tasks: [
+				{
+					id: "3DE61A68C7861026"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+				}
+				{
+					id: "429E9E0DFE11A172"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			id: "2568E918A4414817"
+			tasks: [{
+				id: "034976EA4B02DDE6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["29E1056D8D6EA5BD"]
+			id: "4AEA037581ECD8F4"
+			tasks: [{
+				id: "0A9CB8943A901A14"
+				type: "item"
+				item: "create:wrench"
 			}]
 		}
 	]
